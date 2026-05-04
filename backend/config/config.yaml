@@ -1,0 +1,17 @@
+server:
+  port: 8080
+  mode: debug
+
+database:
+  host: localhost
+  port: 3306
+  username: root
+  password: "123456"
+  dbname: logistics
+  charset: utf8mb4
+  parseTime: true
+  loc: Local
+
+jwt:
+  secret: logistics_secret_key_2024
+  expire: 24  # 小时
